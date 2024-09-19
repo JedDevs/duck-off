@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "Duck Off - Set Default Search Engine",
-	"description": "DuckDuckGo is great, but for the last 4 years their extension locks your browser to DuckDuckGo with no off setting. This would be fine on its own, but their other services such as anonymous emails now force you to download and use their extension. To get around this download 'Duck Off' now. TLDR: 'duck duck duck go !! go duck yourself'",
+	"description": "DuckDuckGo is great, but for the last 4 years their extension locks your search engine to DuckDuckGo with no off setting. This would be fine on its own, but their other services such as anonymous emails now force you to download and use their extension. To get around this download 'Duck Off' now. TLDR: 'duck duck duck go !! go duck yourself'",
 	"version": "0.1",
 	"icons": {
 		"16": "/images/DuckOff16.png",
