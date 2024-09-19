@@ -1,0 +1,32 @@
+{
+	"manifest_version": 3,
+	"name": "Duck Off - Set Default Search Engine",
+	"description": "DuckDuckGo is great, but for the last 4 years their extension locks your browser to DuckDuckGo with no off setting. This would be fine on its own, but their other services such as anonymous emails now force you to download and use their extension. To get around this download 'Duck Off' now. TLDR: 'duck duck duck go !! go duck yourself'",
+	"version": "0.1",
+	"icons": {
+		"16": "/images/DuckOff16.png",
+		"48": "/images/DuckOff48.png",
+		"128": "/images/DuckOff128.png"
+	},
+	"permissions": [
+		"search",
+		"storage"
+	  ],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"action": {
+		"default_popup": "popup.html"
+	},
+	"chrome_settings_overrides": {
+		"search_provider": {
+			"name": "Google",
+			"keyword": "google.com",
+			"search_url": "https://www.google.com/search?q={searchTerms}",
+			"favicon_url": "https://www.google.com/favicon.ico",
+			"suggest_url": "https://www.google.com/complete/search?output=chrome&q={searchTerms}",
+			"encoding": "UTF-8",
+			"is_default": true
+    	}
+ 	}
+}
